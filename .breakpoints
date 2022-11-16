@@ -3,9 +3,15 @@
     "index.js": [
       {
         "id": "5b2a385c-bc97-4e40-adb7-c631f003f5af",
-        "line": 2,
+        "line": 1,
+        "version": 2,
+        "index": 0
+      },
+      {
+        "id": "d715d729-a9a1-47dc-86a8-d03f7d0ae172",
+        "line": 58,
         "version": 1,
-        "index": 11
+        "index": 2586
       }
     ]
   }

@@ -117,7 +117,7 @@ function configureBot(bot) {
     // When the Bot spawns, begin the main gathering loop.
     // Before collecting a log, have the Bot craft axes if it has none.
     bot.on('spawn', async () => {
-        bot.chat('Hello, I have arrived!');
+        bot.chat('Hello, I have arrived! I am ready to chop wood!');
 
         let logsCollected = bot.getInventoryItemQuantity('spruce_log');
         let applesCollected = bot.getInventoryItemQuantity('apple');
