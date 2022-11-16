@@ -23,6 +23,7 @@ function configureBot(bot) {
         while (bot.getInventoryItemQuantity('spruce_log') <= logsBefore) {
             const foundLog = await bot.findBlock('spruce_log', {skipClosest: skipCurrentLog});
             if (foundLog) {
+                console.log(foundLog)
                 // If the Bot located a spruce log, then go chop it
                 const success = await bot.findAndDigBlock('spruce_log', {skipClosest: skipCurrentLog});
                 if (!success) {
